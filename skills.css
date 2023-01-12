@@ -1,0 +1,389 @@
+
+  
+  @media (min-width: 1024px) {
+  .container {
+    height: 100%;
+   display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:
+      "A A A A A A A A A A A A"
+      "C C C C D D D D E E E E"
+      "C C C C D D D D E E E E"
+      "G G G G G G G G G G G G"
+      "G G G G G G G G G G G G"
+      "G G G G G G G G G G G G"
+      "G G G G G G G G G G G G"
+      ;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    body {
+      
+      font-size: 30px;
+      width: 100%;
+      height: 100vh;
+    }
+    [class^="box-"]{
+      color: rgb(255, 255, 255);
+      display: grid;
+      ;
+    }
+    .box-1 {
+      grid-area: A;
+      background-color: white;
+      display: inline;
+    }
+    .box-2 {
+      grid-area: B;
+      background-color: rgb(255, 1, 192);
+    }
+    .box-3 {
+      grid-area: C;
+      background-color:white;
+    }
+  
+    .box-4 {
+      grid-area: D;
+      background-color: white;
+      color: #070707;
+    } 
+    .box-5 {
+      grid-area: E;
+      background-color: white;
+      
+    }
+    .box-6 {
+      grid-area: F;
+      background-color: white;
+      color: rgb(15, 42, 99);
+    }
+    .box-7 {
+      grid-area: G;
+      background-color: white;
+      
+    }
+    .box-8 {
+      grid-area: O;
+    }
+  
+    
+  
+    .box-1 a{
+      text-decoration: none;
+      position: relative;
+      left: 320px;
+      top: 47px;
+      padding: 77px;
+      color: #6d6d6d;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+   
+    a:hover {
+  color: #070707;
+    }
+    p {
+      position: relative;
+      left: 220px;
+      top: 55px;
+      font-size: 60px;
+      color: #070707;
+      font-weight: bold;
+      font-family: Arial;
+    }
+  .html {
+  position: absolute;
+  left: 220px;
+  top: 425px;
+  width: 170px;
+  height: 170px;
+  }
+  
+  .css {
+  position: absolute;
+  left: 550px;
+  top: 425px;
+  width: 170px;
+  height: 170px;
+  }
+  
+  .bootstr {
+  position: absolute;
+  left: 880px;
+  top: 425px;
+  width: 170px;
+  height: 170px;
+  }
+  
+  .javaskr {
+    position: absolute;
+  left: 1210px;
+  top: 425px;
+  width: 170px;
+  height: 170px;
+  }
+  
+  .figma {
+    position: absolute;
+  left: 1540px;
+  top: 425px;
+  width: 170px;
+  height: 170px;
+  }
+  
+  .html1 {
+  position: absolute;
+  left: 271px;
+  top: 620px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 14px;
+  text-align: center;
+  color: #707070;
+  }
+  
+  .css1 {
+    position: absolute;
+    left: 617px;
+    top: 620px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    color: #707070;
+  }
+  
+  .bootstr1 {
+    position: absolute;
+    left: 920px;
+    top: 620px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    color: #707070;
+  }
+  
+  .javaskr1 {
+    position: absolute;
+    left: 1250px;
+    top: 620px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    color: #707070;
+  }
+  .figma1 {
+    position: absolute;
+    left: 1600px;
+    top: 620px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    color: #707070;
+  }
+  }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .container {
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    grid-template-areas:
+    "A A B B"
+    "A A B B"
+    "A A B B"
+    "C C C C"
+    "C C C C"
+    "D D D D"
+    "G G G G"
+    "G G G G"
+    "G G G G"
+    "G G G G"
+    "G G G G"
+    "G G G G"
+    "G G G G"
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    body {
+      
+      font-size: 30px;
+      width: 100%;
+      height: 100vh;
+    }
+    [class^="box-"]{
+      color: rgb(255, 255, 255);
+      display: grid;
+      ;
+    }
+    .box-1 {
+      grid-area: A;
+      background-color: white;
+      display: inline;
+    }
+    .box-2 {
+      grid-area: B;
+      background-color: rgb(255, 1, 192);
+    }
+    .box-3 {
+      grid-area: C;
+      background-color:white;
+    }
+  
+    .box-4 {
+      grid-area: D;
+      background-color: white;
+      color: #070707;
+    } 
+    .box-5 {
+      grid-area: E;
+      background-color: white;
+      
+    }
+    .box-6 {
+      grid-area: F;
+      background-color: white;
+      color: rgb(15, 42, 99);
+    }
+    .box-7 {
+      grid-area: G;
+      background-color: white;
+      
+    }
+    .box-8 {
+      grid-area: O;
+    }
+  
+    
+  
+    .box-1 a{
+      text-decoration: none;
+      position: relative;
+      top: 47px;
+      padding: 25px;
+      padding-top: 10px;
+      color: #6d6d6d;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      
+    }
+   
+    a:hover {
+  color: #070707;
+    }
+    p {
+      position: absolute;
+      left: 110px;
+      top: 250px;
+      font-size: 40px;
+      color: #070707;
+      font-weight: bold;
+      font-family: Arial;
+    }
+  .html {
+  position: absolute;
+  left: 86px;
+  top: 335px;
+  width: 170px;
+  height: 170px;
+  }
+  
+  .css {
+  position: absolute;
+  left: 86px;
+  top: 635px;
+  width: 170px;
+  height: 170px;
+  }
+  
+  .bootstr {
+  position: absolute;
+  left: 86px;
+  top: 935px;
+  width: 170px;
+  height: 170px;
+  }
+  
+  .javaskr {
+    position: absolute;
+    left: 86px;
+  top: 1235px;
+  width: 170px;
+  height: 170px;
+  }
+  
+  .figma {
+    position: absolute;
+    left: 86px;
+  top: 1535px;
+  width: 170px;
+  height: 170px;
+  }
+  
+  .html1 {
+  position: absolute;
+  left: 141px;
+  top: 520px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 14px;
+  text-align: center;
+  color: #707070;
+  }
+  
+  .css1 {
+    position: absolute;
+    left: 148px;
+    top: 825px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    color: #707070;
+  }
+  
+  .bootstr1 {
+    position: absolute;
+    left: 128px;
+    top: 1130px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    color: #707070;
+  }
+  
+  .javaskr1 {
+    position: absolute;
+    left: 126px;
+    top: 1435px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    color: #707070;
+  }
+  .figma1 {
+    position: absolute;
+    left: 141px;
+    top: 1735px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    color: #707070;
+  }
+  }
+

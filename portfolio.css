@@ -1,0 +1,249 @@
+
+  
+  @media (min-width: 1024px) {
+  .container {
+    height: 100%;
+   display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:
+      "A A A A A A A A A A A A"
+      "C C C C D D D D E E E E"
+      "C C C C D D D D E E E E"
+      "G G G G G G G G G G G G"
+      "G G G G G G G G G G G G"
+      "G G G G G G G G G G G G"
+      "G G G G G G G G G G G G"
+      ;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    body {
+      
+      font-size: 30px;
+      width: 100%;
+      height: 100vh;
+    }
+    [class^="box-"]{
+      color: aliceblue;
+      display: grid;
+      ;
+    }
+    .box-1 {
+    grid-area: A;
+    background-color: white;
+    display: inline;
+  }
+  .box-2 {
+    grid-area: B;
+    background-color: rgb(255, 1, 192);
+  }
+  .box-3 {
+    grid-area: C;
+    background-color:white;
+  }
+
+  .box-4 {
+    grid-area: D;
+    background-color: white;
+  } 
+  .box-5 {
+    grid-area: E;
+    background-color: white;
+  }
+  .box-6 {
+    grid-area: F;
+    background-color: white;
+    color: rgb(15, 42, 99);
+  }
+  .box-7 {
+    grid-area: G;
+    background-color: white;
+   
+  }
+  .box-8 {
+    grid-area: O;
+  }
+
+  .box-1 a{
+    text-decoration: none;
+    position: relative;
+    left: 320px;
+    top: 47px;
+    padding: 77px;
+    color: #6d6d6d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+ 
+  a:hover {
+color: #070707;
+  }
+
+  p {
+      position: relative;
+      left: 200px;
+      top: 55px;
+      font-size: 60px;
+      color: #070707;
+      font-weight: bold;
+      font-family: Arial;
+  }
+.city1 {
+  width: 850px;
+  height: 615px;
+  position: absolute;
+  top: 360px;
+  left: 80px;
+
+}
+.city2 {
+  width: 850px;
+  height: 615px;
+  position: absolute;
+  top: 360px;
+  left: 1000px;
+}
+pre {
+    position: absolute;
+    left: 665px;
+    top: 1000px;
+    text-align: center;
+    font-size: 23px;
+    color: #747474;
+    font-weight: lighter;
+    font-family: Arial;
+}
+  }
+  @media (min-width: 320px) and (max-width: 426px) {
+    .container {
+      height: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    grid-template-areas:
+    "A A B B"
+    "A A B B"
+    "A A B B"
+    "C C C C"
+    "C C C C"
+    "D D D D"
+    "G G G G"
+    "G G G G"
+    "G G G G"
+    "G G G G"
+    "G G G G"
+    "G G G G"
+    "G G G G"
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    body {
+      
+      font-size: 30px;
+      width: 100%;
+      height: 100vh;
+    }
+    [class^="box-"]{
+      color: aliceblue;
+      display: grid;
+      ;
+    }
+    .box-1 {
+    grid-area: A;
+    background-color: white;
+    display: inline;
+  }
+  .box-2 {
+    grid-area: B;
+    background-color: rgb(255, 1, 192);
+  }
+  .box-3 {
+    grid-area: C;
+    background-color:white;
+  }
+
+  .box-4 {
+    grid-area: D;
+    background-color: white;
+  } 
+  .box-5 {
+    grid-area: E;
+    background-color: white;
+  }
+  .box-6 {
+    grid-area: F;
+    background-color: white;
+    color: rgb(15, 42, 99);
+  }
+  .box-7 {
+    grid-area: G;
+    background-color: white;
+   
+  }
+  .box-8 {
+    grid-area: O;
+  }
+
+  .box-1 a{
+    text-decoration: none;
+    position: relative;
+    top: 47px;
+    padding: 25px;
+    padding-top: 10px;
+    color: #6d6d6d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+  }
+ 
+  a:hover {
+color: #070707;
+  }
+
+
+  p {
+    position: absolute;
+    left: 80px;
+    top: 250px;
+    font-size: 40px;
+    color: #070707;
+    font-weight: bold;
+    font-family: Arial;
+  }
+.city1 {
+  width: 300px;
+  height: 215px;
+  position: absolute;
+  top: 320px;
+  left: 14px;
+
+}
+.city2 {
+  width: 300px;
+  height: 215px;
+  position: absolute;
+  top: 580px;
+  left: 14px;
+}
+pre {
+    position: absolute;
+    top: 552px;
+    text-align: center;
+    font-size: 12px;
+    color: #747474;
+    font-weight: lighter;
+    font-family: Arial;
+}
+  }
+
+
+  
